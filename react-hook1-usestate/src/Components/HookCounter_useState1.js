@@ -13,8 +13,7 @@ function HookCounter_useState1() {
     return (
     <div>
 
-        <h2> Count value:- {count} </h2>
-        
+        <h2> Count value:- {count} </h2>  
         <button onClick={ () => { setCount(prevCount => prevCount + 1) } }>
           Increment
         </button>
@@ -30,7 +29,6 @@ function HookCounter_useState1() {
         <button onClick={ () => { IncrementByFive() } }>
           IncrementByFive
         </button>
-
     </div>
   )
 }
