@@ -1,9 +1,10 @@
 import './App.css';
+import ComponentA from './Components/ComponentA';
 
 function App() {
   return (
     <div className="App">
-      User-context
+      <ComponentA/>
     </div>
   );
 }
