@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import FocusInputField from "./Components/FocusInputField";
+import Timer from "./Components/Timer";
 
 function App() {
   return (
     <div className="App">
-     useRef
+      <FocusInputField />
+      <Timer/>
     </div>
   );
 }
